@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My to-do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>My to-do List</h2>
+        <p><em>Double-click an item to mark it complete.</em></p>
+        <input type="text" class="input" id="input" />
+        <button class="add-button" id="add-button">Add</button>
+        <ol id="todo-list" class="c-todo-list">
+            <span>Add some items that you don't want to forget</span>
+            <li>Milk</li>
+        </ol>
+        <button class="clear-button" id="clear-button">Clear Completed</button>
+        <button class="empty-list" id="empty-list">Empty List</button>
+        <button class="save-list" id="save-list">Save List</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

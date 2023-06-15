@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Permanent Marker';
+}
+
+button {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.input {
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+.add-button{
+    background-color: #FD8A8A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.clear-button{
+    background-color: #FD8A8A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.empty-list{
+    background-color: #A8D1D1 ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.save-list{
+    background-color: #9EA1D4 ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+.button:hover {
+    filter: brightness(0.9)
+}
+
+.My{
+    margin-top: 20px;
+}
+
+.c-todo-list {
+    border: 1px solid #737373;
+    padding: 10px; 
+}
+
+.c-todo-list li {
+    font-family: 'Permanent Marker';
+    list-style-position: inside;
+}
+
+.c-todo-list span {
+    font-size: 12px;
+    font-weight: 600;
+}
+.completed {
+    text-decoration: line-through;
+  }
+  
